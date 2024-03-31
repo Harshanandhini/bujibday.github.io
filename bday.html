@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    header {
+      background-color: #ffc0cb;
+      padding: 20px;
+      border-radius: 20px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #333;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .emoji-container {
+      margin-bottom: 20px;
+    }
+
+    .message {
+      background-color: #ffe4e1;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .message p:last-child {
+      margin-bottom: 0;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    /* Animation */
+    @keyframes float {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+    .emoji-container img {
+      animation: float 3s ease-in-out infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎂 Happy Birthday, Buji! 🎉</h1>
+      <p>Wishing you a day filled with joy and laughter!</p>
+    </header>
+    <main>
+      <div class="emoji-container">
+        <img src="https://emojicdn.elk.sh/🐻" alt="Birthday Bear">
+      </div>
+      <div class="message">
+        <p>Dear Buji,</p>
+        <p>On this special day, I want to take a moment to celebrate the amazing person you are. Your friendship means the world to me, and I'm grateful for all the memories we've shared.</p>
+        <p>May your birthday be filled with love, laughter, and all the things that bring you happiness. Here's to another fantastic year ahead!</p>
+        <p>Happy Birthday!</p>
+        <p>With love,</p>
+        <p>Milkshake</p>
+      </div>
+    </main>
+    <footer>
+      <p>Created with ❤️ by Milkshake</p>
+    </footer>
+  </div>
+</body>
+</html>
